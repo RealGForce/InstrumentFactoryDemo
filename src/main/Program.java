@@ -13,9 +13,9 @@ public class Program
 		InstrumentFactory factory = new InstrumentFactory();
 		List<Instrument> instruments = new ArrayList<Instrument>();
 		
-		instruments.add(factory.getInstrument("Piano"));
-		instruments.add(factory.getInstrument("BassGuitar"));
-		instruments.add(factory.getInstrument("DrumKit"));
+		instruments.add(factory.createInstrument("Piano"));
+		instruments.add(factory.createInstrument("BassGuitar"));
+		instruments.add(factory.createInstrument("DrumKit"));
 		
 		for (Instrument instrument : instruments)
 		{

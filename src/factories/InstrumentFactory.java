@@ -7,7 +7,7 @@ import instruments.Piano;
 
 public class InstrumentFactory
 {
-	public Instrument getInstrument(String instrumentType)
+	public Instrument createInstrument(String instrumentType)
 	{
 		if (instrumentType == null)
 		{
