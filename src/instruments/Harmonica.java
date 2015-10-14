@@ -1,6 +1,6 @@
 package instruments;
 
-public class BassGuitar implements Instrument
+public class Harmonica implements Instrument
 {
 	@Override
 	public void play()
