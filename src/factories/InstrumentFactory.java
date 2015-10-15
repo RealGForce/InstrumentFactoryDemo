@@ -1,7 +1,7 @@
 package factories;
 
+import instruments.BassGuitar;
 import instruments.Harmonica;
-import instruments.DrumKit;
 import instruments.Instrument;
 import instruments.Piano;
 
@@ -19,11 +19,11 @@ public class InstrumentFactory
 
 		} else if (instrumentType.equalsIgnoreCase("BASSGUITAR"))
 		{
-			return new Harmonica();
+			return new BassGuitar();
 
-		} else if (instrumentType.equalsIgnoreCase("DRUMKIT"))
+		} else if (instrumentType.equalsIgnoreCase("HARMONICA"))
 		{
-			return new DrumKit();
+			return new Harmonica();
 		}
 
 		return null;

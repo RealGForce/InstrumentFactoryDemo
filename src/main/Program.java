@@ -15,7 +15,7 @@ public class Program
 		
 		instruments.add(factory.createInstrument("Piano"));
 		instruments.add(factory.createInstrument("BassGuitar"));
-		instruments.add(factory.createInstrument("DrumKit"));
+		instruments.add(factory.createInstrument("Harmonica"));
 		
 		for (Instrument instrument : instruments)
 		{
